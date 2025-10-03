@@ -2,6 +2,13 @@
 
 manejador de paquetes: **pnpm** ‼️
 
+## Instalar pnpm
+`sudo npm install -g pnpm`
+
+## Instalar dependencias
+`pnpm install`
+
+
 ## Cómo correr 🏇🏻
 `pnpm run dev`
 
