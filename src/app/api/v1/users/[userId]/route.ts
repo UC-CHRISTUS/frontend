@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server"
 
-export const GET = (
+export const GET = async (
   request: NextRequest,
-  { params }: { params: { userId: string } }
+  { params }: { params: Promise<{ userId: string }> }
 ) => {
-  const { userId } = params
+  const { userId } = await params
 
   return NextResponse.json({
     message: `User ID is ${userId}`,
