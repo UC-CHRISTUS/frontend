@@ -1,0 +1,96 @@
+.uploadContainer {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.dropZone {
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dropZone:hover {
+  border-color: #6366f1;
+  background-color: #f8fafc;
+}
+
+.dropZone.dragging {
+  border-color: #6366f1;
+  background-color: #e0e7ff;
+  transform: scale(1.02);
+}
+
+.dropZoneContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.uploadIcon {
+  width: 48px;
+  height: 48px;
+  color: #64748b;
+}
+
+.dropZone.dragging .uploadIcon {
+  color: #6366f1;
+}
+
+.dropZoneText {
+  font-size: 1.125rem;
+  color: #475569;
+  margin: 0;
+  font-weight: 500;
+}
+
+.orText {
+  font-size: 1rem;
+  color: #64748b;
+  margin: 0.5rem 0;
+}
+
+.chooseFileButton {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.chooseFileButton:hover {
+  background-color: #4f46e5;
+}
+
+.fileInput {
+  display: none;
+}
+
+.fileInfo {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #dcfce7;
+  border: 1px solid #22c55e;
+  border-radius: 8px;
+}
+
+.fileName {
+  font-weight: 500;
+  color: #166534;
+  margin: 0 0 0.5rem 0;
+}
+
+.fileSize {
+  color: #15803d;
+  margin: 0;
+  font-size: 0.875rem;
+}
