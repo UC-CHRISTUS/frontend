@@ -4,12 +4,14 @@
 
 [pincha aquí](http://localhost:3000/dashboard)
 
+## Consideraciones
+
 manejador de paquetes: **npm** ‼️
 
-## Instalar dependencias
+###  Instalar dependencias
 `npm install`
 
-## Cómo correr 🏇🏻
+###  Cómo correr 🏇🏻
 `npm run dev`
 
 ## Tecnología utilizada
