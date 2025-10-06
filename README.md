@@ -1,16 +1,12 @@
 # Frontend UC-Christus 🏥
 
-manejador de paquetes: **pnpm** ‼️
-
-## Instalar pnpm
-`sudo npm install -g pnpm`
+manejador de paquetes: **npm** ‼️
 
 ## Instalar dependencias
-`pnpm install`
-
+`npm install`
 
 ## Cómo correr 🏇🏻
-`pnpm run dev`
+`npm run dev`
 
 ## Tecnología utilizada
 Next JS, Typescript, ESlint
