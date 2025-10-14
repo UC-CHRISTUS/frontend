@@ -1,0 +1,134 @@
+.container {
+  padding: 2rem;
+  background-color: #f8fafc;
+  min-height: calc(100vh - 80px);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+
+.warning {
+  padding: 1.5rem;
+  background-color: #fef3c7;
+  border: 2px solid #fbbf24;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.warning p {
+  margin: 0;
+  color: #92400e;
+  font-weight: 500;
+}
+
+.fileSelector {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.label {
+  font-weight: 600;
+  color: #1e293b;
+  font-size: 1rem;
+}
+
+.select {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #6D28D9;
+  box-shadow: 0 0 0 3px rgba(109, 40, 217, 0.1);
+}
+
+.editorContainer {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info p {
+  margin: 0;
+  color: #475569;
+  font-size: 0.875rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+.hint {
+  padding: 0.5rem 1rem;
+  background: #e0e7ff;
+  border: 1px solid #6366f1;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: #3730a3;
+}
+
+.downloadBtn {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.downloadBtn:hover {
+  background-color: #15803d;
+}
+
+.noFile {
+  padding: 3rem;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.noFile p {
+  margin: 0;
+  color: #64748b;
+  font-size: 1.125rem;
+}
